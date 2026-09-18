@@ -1,0 +1,33 @@
+<Picture 1> is a sixteen-panel storyboard showing successive moments of this single continuous shot. Use it ONLY for general composition and lighting. Do not reproduce the grid, add cuts, or treat the panels as separate camera angles. The character sheets below are the authority on identity and wardrobe.
+
+<Picture 2> is Nora's character sheet: preserve her exact face, brown eyes, freckles, chin-length black bob, fitted midnight navy sleeveless knee-length dress, silver stud earrings, fine silver necklace, and black ankle boots.
+
+<Picture 3> is a six-view turnaround of Nora's silver muscle coupe with blue center stripes and black wheels. The car is parked out of frame and is not visible in this shot.
+
+<Picture 4> is Owen's character sheet: preserve his exact face, blue eyes, short curly auburn hair, reddish beard, tall broad build, plain black suit jacket, black shirt and tie, black trousers and shoes, and clear coiled earpiece behind his right ear.
+
+For Owen's earpiece placement, use only the frontal face portrait within <Picture 4>: viewer-left is his anatomical right. Ignore pale neck lines in the side and rear reference views. Never add an earpiece to his left ear.
+
+One continuous fifteen-second photorealistic live-action shot at the entrance of a fictional upscale Miami nightclub hosting a film screening at night. No cuts, cutaways, or camera angle changes.
+
+Medium two-shot at chest height. Nora stands on the left facing right, and Owen stands on the right facing left. Both faces remain clearly visible in three-quarter view toward the camera. The warm lit doorway and a brass stanchion with burgundy velvet rope are behind Owen. Camera locked off with a very slow, subtle drift inward, no orbit, shake, or zoom.
+
+Only these two people are visible. No pedestrians, extra faces, cars, or other people enter the frame.
+
+0.0 to 3.5 seconds: Nora stops in front of Owen. They calmly look at each other. Both mouths remain relaxed and closed. Neither speaks.
+
+3.5 to 5.5 seconds: Owen asks in a deep, calm natural male voice: "Your name, please." Nora listens with her mouth closed.
+
+5.5 to 8.0 seconds: Nora answers in a calm natural female voice: "Nora. I'm on the list." Owen listens with his mouth closed.
+
+8.0 to 10.0 seconds: Owen asks in the same voice: "The studio screening?" Nora listens with her mouth closed.
+
+10.0 to 12.5 seconds: Nora replies in the same voice: "Yes. I'm the photographer." Owen listens with his mouth closed.
+
+12.5 to 15.0 seconds: both hold a subtle, friendly closed-mouth expression. Neither speaks. End on this same two-shot.
+
+Each mouth moves in synchronization with that person's own words. The listener never mouths the other person's speech. Natural occasional blinking and gentle breathing, minimal head movement, no exaggerated gestures. Keep identities, hair, clothing, body proportions, and accessory placement unchanged. Hands stay relaxed below the frame.
+
+Lighting: warm amber doorway light as key, cool blue street rim. Both faces clearly lit. Natural photographic exposure, ordinary matte skin, grounded shadows, shallow depth of field with both faces in focus, restrained cinematic realism. No render-like shine or exaggerated neon.
+
+Generate synchronized audio: the four dialogue lines above, deep club music muffled behind the wall, faint distant traffic, and subtle fabric movement. No background speech, narration, or added score. No subtitles, on-screen writing, watermark, or contact-sheet layout in the output.
