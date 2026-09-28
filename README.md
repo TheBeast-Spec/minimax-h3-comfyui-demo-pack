@@ -12,10 +12,14 @@ The four-reference demo is an equivalent exercise, not an exact reproduction of 
 
 The experimental [body-swap workflow and setup guide](workflows/body-swap-matched-hands/README.md) uses pose guidance from a source video and protects the source hands, preserving their gesture and skin tone. It does not regenerate hands. The source video and reference photos are not included; provide your own media.
 
+## Additional workflow: long take with motion context
+
+The [long-take workflow and setup guide](workflows/long-take-motion-context/README.md) builds one continuous video from timeline segments, using the Singularity reference-to-video model. It's the Noncoder edition, laid out in six numbered areas with a guide note beside each one, and it lists every model with its download link. It ships with one blank starter segment; load your own references and prompts.
+
 ## Source
 
 Companion to Noncoder's **MiniMax H3 ComfyUI: Realism, Lip Sync & Latent Upscaling**. The adapted base workflow follows the structure demonstrated in the [original workflow video](https://www.youtube.com/watch?v=ccvG-Z__pHk). See the [Comfy-Org MiniMax H3 model repository](https://huggingface.co/Comfy-Org/MiniMax-H3) for model files. Third-party nodes and model weights remain subject to their own licenses.
 
 ## Contents and privacy
 
-Includes a blank base workflow, four generated fictional reference sheets, a demo prompt and setup guide, provenance and checksums, and the additional body-swap workflow. The repository does not include original tutorial film, reference recordings, private body-swap input media, model weights, credentials, or personal filesystem paths. The fictional demo reference sheets are in `demo/reference-images/`.
+Includes a blank base workflow, four generated fictional reference sheets, a demo prompt and setup guide, provenance and checksums, the additional body-swap workflow, and the long-take workflow. The repository does not include original tutorial film, reference recordings, private body-swap input media, model weights, credentials, or personal filesystem paths. The fictional demo reference sheets are in `demo/reference-images/`.
