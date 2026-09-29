@@ -2,27 +2,17 @@
 
 A ComfyUI workflow for MiniMax H3 reference-to-video long takes. You write a scene on a timeline, split it into segments, and render them into one video with sound. It runs on the multi-track editor from ComfyUI-Easy-Media.
 
-## Which file?
-
-There are two files here. Both run the same engine and need the same models.
-
-- **`H3_LONG_TAKE_AS_IN_VIDEO.json`**: the exact workflow shown in the video, with the same nodes, layout, notes and settings. My scene's prompts, reference images and seed are removed, so it starts with one blank segment.
-- **`H3_LONG_TAKE_MOTION_CONTEXT.json`**: the Noncoder edition. It's the same engine rearranged into six numbered areas with a guide note beside each one: Start here, Scene editor, Render, Live preview, Takes, and Save. Press keys **1** to **6** on the canvas to jump between them. It adds a Low-VRAM switch, and one LoRA loader holds both LoRAs.
-
-If you're following the video step by step, use the first file.
-
 ## Import
 
-1. Drag either JSON file onto the ComfyUI canvas.
+1. Drag `H3_LONG_TAKE_AS_IN_VIDEO.json` onto the ComfyUI canvas. It's the exact workflow shown in the video, with my scene's prompts, reference images and seed removed, so it starts with one blank segment.
 2. Install the missing custom nodes from ComfyUI Manager.
 3. Download the models below. ComfyUI offers a download button for most of them when they're missing.
-4. Read the notes on the canvas before your first render.
+4. Read the two notes on the canvas before your first render.
 
 ## Custom nodes
 
 - [ComfyUI-Easy-Media](https://github.com/yolain/ComfyUI-Easy-Media): multi-track editor, project, and takes
-- [ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes): live preview, low-VRAM nodes, Set/Get
-- [rgthree-comfy](https://github.com/rgthree/rgthree-comfy): LoRA loader, bookmarks, Low-VRAM switch (Noncoder edition only)
+- [ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes): live preview while it renders
 
 ## Models
 
@@ -43,7 +33,7 @@ Keep the 4-step v0.1 turbo LoRA with Singularity. The 8-step LoRA isn't the pair
 
 - **24 GB or more:** 1.0 to 1.4 MP.
 - **16 GB:** 1.0 MP. Tested on an RTX 5070 Ti with 32 GB of system RAM.
-- **12 GB:** use 0.7 MP, and in the Noncoder edition switch on Low-VRAM mode in the Render area. Not tested yet.
+- **12 GB:** use 0.7 MP. Not tested yet.
 - Per segment, keep frames times megapixels under about 540.
 
 The text encoder is NVFP4, which is built for RTX 50 cards. On an RTX 30 or 40 card, try `qwen3vl_32b_minimax_h3_int8_convrot` from [Comfy-Org/MiniMax-H3](https://huggingface.co/Comfy-Org/MiniMax-H3/tree/main/text_encoders). It's a bigger file and hasn't been tested with this workflow.
@@ -59,9 +49,8 @@ Both modes render every segment on the timeline. To render one segment, set `seg
 ## Known limits
 
 - H3 sometimes cuts to a different angle partway through a clip. It's random per seed, so render again with a new seed.
-- In ComfyUI's newer node style, the Low-VRAM switch shows its toggle without a label. The toggle still works.
 - Not tested yet: a render with no reference images, and lip-sync to your own MP3 on the Voice track.
 
 ## Source
 
-Adapted from a community MiniMax H3 Motion Context V2 workflow built on the multi-track project from [ComfyUI-Easy-Media](https://github.com/yolain/ComfyUI-Easy-Media) by yolain. The Noncoder edition adds the numbered layout, side notes, takes setup, model links, and Low-VRAM switch. Third-party nodes and model weights remain subject to their own licenses.
+Adapted from a community MiniMax H3 Motion Context V2 workflow built on the multi-track project from [ComfyUI-Easy-Media](https://github.com/yolain/ComfyUI-Easy-Media) by yolain. This is the graph used in the video, with side notes and model links added. Third-party nodes and model weights remain subject to their own licenses.
