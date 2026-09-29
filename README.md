@@ -14,7 +14,7 @@ The experimental [body-swap workflow and setup guide](workflows/body-swap-matche
 
 ## Additional workflow: long take with motion context
 
-The [long-take workflow and setup guide](workflows/long-take-motion-context/README.md) builds one continuous video from timeline segments, using the Singularity reference-to-video model. It's the Noncoder edition, laid out in six numbered areas with a guide note beside each one, and it lists every model with its download link. It ships with one blank starter segment; load your own references and prompts.
+The [long-take workflow and setup guide](workflows/long-take-motion-context/README.md) builds one continuous video from timeline segments, using the Singularity reference-to-video model. It comes in two versions: the exact workflow shown in the video, and the Noncoder edition, laid out in six numbered areas with a guide note beside each one. The guide lists every model with its download link. Both ship with one blank starter segment; load your own references and prompts.
 
 ## Source
 
